@@ -1,0 +1,26 @@
+# Site settings
+title: Phil Tobias
+subtitle: Software Architect
+email: philtobias@gmail.com
+keywords: Phil Tobias, Phil Tobias Architect, Phil Tobias Developer, Phil Tobias Minneapolis, Phil Tobias Los Angeles, Phil Tobias UI Engineer
+description: Phil Tobias is a software architect who has worked for BLITZ Agency, TBWA\Chiat\Day, TBWA\Worldwide, Projeqt, Ubiquiti Networks, and DigitalOcean.
+works:
+- name: ubnt
+  url: ubnt.com
+  alt: Ubiquiti Networks (ubnt.com)
+- name: projeqt
+  url: projeqt.com
+- name: spotlites
+  url: spotlit.es
+- name: pilotis
+  url: tbwa.com
+- name: tbwachiatday
+  url: tbwachiatday.com
+- name: blitz
+  url: //www.thefwa.com/site/blitz-we-design-love-
+  alt: BLITZ Agency
+
+exclude: ['src/', 'Gruntfile.js', 'package.json', 'node_modules/', '*.sublime-project', 'README.md']
+
+# Build settings
+markdown: kramdown
