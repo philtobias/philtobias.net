@@ -8,3 +8,4 @@ build
 _site
 _src
 affiliates
+npm-debug.log
