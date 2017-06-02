@@ -1,16 +1,20 @@
 {
   "name": "philtobias",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
+  "scripts": {
+    "dev": "jekyll serve",
+    "build": "grunt"
+  },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-cssmin": "~0.6.0",
-    "grunt-contrib-htmlmin": "~0.1.3",
-    "grunt-contrib-imagemin": "~0.4.0",
-    "load-grunt-tasks": "~0.1.0",
-    "time-grunt": "~0.1.1"
+    "grunt": "1.0.1",
+    "grunt-contrib-cssmin": "2.2.0",
+    "grunt-contrib-htmlmin": "2.4.0",
+    "grunt-contrib-imagemin": "1.0.1",
+    "load-grunt-tasks": "3.5.2",
+    "time-grunt": "1.4.0"
   },
   "engines": {
-    "node": ">=0.8.0"
+    "node": ">=8"
   }
 }

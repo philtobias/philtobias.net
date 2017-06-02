@@ -11,14 +11,14 @@ sudo gem install sass jekyll
 npm i
 ```
 
-### Run jekyll locally
+### Run locally
 
 ```
-jekyll serve
+npm run dev
 ```
 
-### Compress CSS, Images, HTML
+### Create build
 
 ```
-grunt
+npm run build
 ```

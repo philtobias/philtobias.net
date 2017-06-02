@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% include sidebar.html active="blog" %}
+<main class="main">
+  <div class="header">
+    <a class="hamburger">☰</a>
+    <h1 class="header__title">{{ site.title }}</h1>
+    <h2 class="header__subtitle">{{ site.subtitle }}</h2>
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
+</main>
