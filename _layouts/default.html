@@ -20,10 +20,11 @@
   <div class="content dark">
     {{ content }}
   </div>
+  <script src="https://cdn.ravenjs.com/3.15.0/raven.min.js"></script>
   <script>
   var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28521681-1"]);_gaq.push(["_setDomainName",".philtobias.net"]);_gaq.push(["_trackPageview"]);
   (function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
+  Raven.config('https://080c45b256c447aaa199e3d16adc0a94@sentry.io/175524').install()
   </script>
-  <script src="//d2wy8f7a9ursnm.cloudfront.net/bugsnag-3.min.js" data-apikey="7b02dcab1be5d6659e43af10a8b54c03"></script>
 </body>
 </html>
