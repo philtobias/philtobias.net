@@ -1,0 +1,33 @@
+.slideout-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: $sidebar-width;
+  min-height: 100vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  z-index: 1;
+  display: none;
+}
+
+.slideout-menu-left {
+  left: 0;
+}
+
+.slideout-panel {
+  position: relative;
+  z-index: 2;
+  will-change: transform;
+  background-color: $dark-gray-color;
+  min-height: 100vh;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}

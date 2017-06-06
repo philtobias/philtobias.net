@@ -3,17 +3,13 @@ var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28521681-1"]);_gaq.push(["_setDom
 
 Raven.config('https://080c45b256c447aaa199e3d16adc0a94@sentry.io/175524').install()
 
-let isSidebarOpen = false;
-const $main = document.querySelector('.main');
-document.querySelector('.hamburger').addEventListener('click', toggleSidebar);
+let slideout = new Slideout({
+  panel: document.getElementById('panel'),
+  menu: document.getElementById('menu'),
+  padding: 256,
+  tolerance: 70
+})
 
-function toggleSidebar(e) {
-  e.preventDefault();
-  isSidebarOpen = !isSidebarOpen;
-  $main.classList.toggle('main--push');
-  document.body.style.overflowX = isSidebarOpen ? 'hidden' : '';
-}
-
-window.addEventListener('load', function() {
-  document.querySelector('.sidebar').style.display = 'block';
+document.querySelector('.hamburger').addEventListener('click', function() {
+  slideout.toggle();
 });

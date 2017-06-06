@@ -3,6 +3,7 @@
 module.exports = function (grunt) {
   require('time-grunt')(grunt);
   require('load-grunt-tasks')(grunt);
+  const pngquant = require('imagemin-pngquant');
 
   grunt.initConfig({
     htmlmin: {
@@ -28,6 +29,12 @@ module.exports = function (grunt) {
     },
     imagemin: {
       dist: {
+        options: {
+          use: [pngquant({
+            speed: 1,
+            quality: 80
+          })]
+        },
         files: [{
           expand: true,
           cwd: '_site/images/',
