@@ -7,5 +7,5 @@ build
 .grunt
 _site
 _src
-affiliates
 npm-debug.log
+package-lock.json

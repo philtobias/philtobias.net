@@ -1,0 +1,20 @@
+.work {
+  a {
+    overflow: hidden;
+    position: relative;
+    border: 0;
+    padding: 0;
+
+    img {
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    }
+
+    &:hover {
+      img {
+        -webkit-transform: scale3d(1.1,1.1,1);
+        transform: scale3d(1.1,1.1,1);
+        opacity: 0.4;
+      }
+    }
+  }
+}
