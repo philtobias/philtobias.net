@@ -19,7 +19,7 @@ works:
   url: thefwa.com/cases/blitz-we-design-love
   alt: BLITZ Agency
 
-exclude: ['src/', 'Gruntfile.js', 'package.json', 'package-lock.json', 'node_modules/', '*.sublime-project', 'README.md', 'blog.html']
+exclude: ['src/', 'Gruntfile.js', 'package.json', 'package-lock.json', 'node_modules/', '*.sublime-project', 'README.md']
 
 # Build settings
 markdown: kramdown
