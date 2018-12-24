@@ -4,17 +4,21 @@ subtitle: Software Architect
 keywords: Phil Tobias, Phil Tobias Software, Phil Tobias Developer, Phil Tobias San Diego, Phil Tobias Los Angeles, Phil Tobias UI Engineer
 description: Phil Tobias is a software architect who has worked for BLITZ Agency, TBWA\Chiat\Day, TBWA\Worldwide, Projeqt, Ubiquiti Networks, and DigitalOcean.
 works:
+- name: digitalocean
+  url: digitalocean.com
+  alt: DigitalOcean
 - name: ubnt
   url: ubnt.com
   alt: Ubiquiti Networks (ubnt.com)
 - name: projeqt
-  url: projeqt.com
-- name: spotlites
-  url: spotlit.es
-- name: pilotis
+  url: mashable.com/2011/03/04/projeqt/
+  alt: Projeqt
+- name: tbwa
   url: tbwa.com
+  alt: TBWA\Worldwide (Pilot.is, Spotlit.es, Projeqt)
 - name: tbwachiatday
   url: tbwachiatday.com
+  alt: TBWA\Chiat\Day LA
 - name: blitz
   url: thefwa.com/cases/blitz-we-design-love
   alt: BLITZ Agency
