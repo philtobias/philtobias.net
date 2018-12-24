@@ -4,11 +4,7 @@ layout: default
 
 {% include sidebar.html active="home" %}
 <main id="panel" class="main">
-  <div class="header">
-    <a class="hamburger">☰</a>
-    <h1 class="header__title">{{ site.title }}</h1>
-    <h2 class="header__subtitle">{{ site.subtitle }}</h2>
-  </div>
+  {% include header.html %}
   <div class="content dark">
     {{ content }}
   </div>
