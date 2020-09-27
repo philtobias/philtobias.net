@@ -4,8 +4,4 @@
     <loc>http://philtobias.net</loc>
     <changefreq>monthly</changefreq>
   </url>
-  <url>
-    <loc>http://philtobias.net/about</loc>
-    <changefreq>monthly</changefreq>
-  </url>
 </urlset>
